@@ -1,0 +1,34 @@
+[
+  {
+    "name": "aLang",
+    "age": 27,
+    "skillList": [
+      "java",
+      "c++"
+    ]
+  },
+  {
+    "name": "darcy",
+    "age": 26,
+    "skillList": [
+      "go",
+      "rust"
+    ]
+  },
+  {
+    "TestArray": [
+      {
+        "name": "Jeff",
+        "age": "123"
+      },
+      {
+        "name": "Ming",
+        "age": "987"
+      },
+      {
+        "name": "Tom60229",
+        "age": "654"
+      }
+    ]
+  }
+]

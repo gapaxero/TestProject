@@ -1,0 +1,34 @@
+{
+  "msg": "",
+  "rc2": "M000",
+  "result": {
+    "data": {
+      "Msg": "",
+      "TxnTerID": "93577",
+      "TxnLength": "00197",
+      "TB74": {
+        "Flg": "Y",
+        "PeriodType": "M",
+        "Currency1": "USD",
+        "Currency2": "USD",
+        "Rate": "0018000",
+        "Fee": "000000000001F",
+        "Period": "006",
+        "Balance2": "000000954020477",
+        "Balance1": "000000000213400",
+        "Ctid": "50000351",
+        "EndDate": "01110419  ",
+        "BeginDate": "01101019  ",
+        "Payment": "000000000213416",
+        "CancelDate": "0110/11/11",
+        "Account1": "002885811921",
+        "WTAX": "0000000000000",
+        "Account2": "002775811920",
+        "Filler13": "0000000000000"
+      }
+    },
+    "txn": "HQ00B28900"
+  },
+  "rc": "M000",
+  "msg2": ""
+}
