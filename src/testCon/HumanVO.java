@@ -24,7 +24,15 @@ public class HumanVO {
 		this.age = age;
 		this.home = home;
 	}
-	
+
+	public HumanVO getHumanVO() {
+		return this;
+	}
+
+	public Object getReturn() {
+		return 1;
+	}
+
 	@Override
 	public String toString() {
 		return "Name:" + name + " Age:" + age + " Home:" + home + " Counter:" + counter;

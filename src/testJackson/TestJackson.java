@@ -31,17 +31,15 @@ public class TestJackson {
 		
 		String aaa = "{\"NAME\":\"CCC\",\"AGE\":\"77\",\"BDate\":\"123456\",\"SEQ\":\"99\",\"G\":\"F\"}";
 		User user = JackTools.readValue(aaa, User.class);
-		
-		JsonNode node = JackTools.getMapper().readTree(jsonStr);
-		JsonNode value = node.path("name");
-		
-//		List<User> listUser = JackTools.getMapper().readValue(json3, new TypeReference<List<User>>(){});
-		
-//		String jsonNNB = setDataJson("aa", "CCC");
-//		System.out.println(jsonNNB);
-//		System.out.println(getData(jsonNNB));
 
-		System.out.println(jsonStr);
+		JsonNode node = JackTools.getMapper().readTree(aaa);
+
+		Map<String, Object> map = JackTools.getMapper().convertValue(node, new TypeReference<Map<String, Object>>(){});
+//		List<User> listUser = JackTools.getMapper().readValue(json3, new TypeReference<List<User>>(){});
+
+
+
+		System.out.println(map);
 		
 	}
 	
